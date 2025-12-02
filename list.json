@@ -36,9 +36,18 @@
         "question": "Pilih makanan kesukaan kamu (satu saja)",
         "type": "dropdown",
         "options": [
-          {"id": 1, "value": "Nasi goreng"},
-          {"id": 2, "value": "Mie goreng" },
-          {"id": 3, "value": "Ayam penyet"}
+          {
+            "id": 1,
+            "value": "Nasi goreng"
+          },
+          {
+            "id": 2,
+            "value": "Mie goreng"
+          },
+          {
+            "id": 3,
+            "value": "Ayam penyet"
+          }
         ],
         "min": 1,
         "max": 1,
@@ -51,9 +60,18 @@
         "question": "Pilih yang kamu ingin perusahaan berikan (minimal 1, boleh lebih dari 1, maksimal 2)",
         "type": "dropdown",
         "options": [
-          {"id": 1, "value": "Slip gaji di print"             },
-          {"id": 2, "value": "Naik gaji"                      },
-          {"id": 3, "value": "Bonus tiap quarter (setahun 4x)"}
+          {
+            "id": 1,
+            "value": "Slip gaji di print"
+          },
+          {
+            "id": 2,
+            "value": "Naik gaji"
+          },
+          {
+            "id": 3,
+            "value": "Bonus tiap quarter (setahun 4x)"
+          }
         ],
         "min": 1,
         "max": 3,
