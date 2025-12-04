@@ -1,93 +1,96 @@
 {
-		"MESSAGE_TYPE": "S",
-		"MESSAGE": "Successfully start survey",
-		"DATA": {
-			"id": 1,
-			"uuid": "001-001-001-001",
-			"description": "Survey ini bertujuan untuk ini itu ini itu dst dst",
-			"survey_question": [
-				{
-					"id": 1,
-					"uuid": "001-001-001-001",
-					"question": "Apakah kamu cukup puas dengan perusahaan?",
-					"type": "likert",
-					"min": 1,
-					"max": 6,
-					"min_value": "Sangat tidak puas",
-					"max_value": "Puas sekali",
-					"mandatory": true,
-					"multiple": false
-				},
-				{
-					"id": 2,
-					"uuid": "002-002-002-002",
-					"question": "Apakah kamu cukup puas dengan gaji?",
-					"type": "likert",
-					"min": 1,
-					"max": 6,
-					"min_value": "Sangat tidak puas",
-					"max_value": "Puas sekali",
-					"mandatory": true,
-					"multiple": false
-				},
-				{
-					"id": 3,
-					"uuid": "003-003-003-003",
-					"question": "Pilih makanan kesukaan kamu (satu saja)",
-					"type": "dropdown",
-					"options": [
-						{
-							"id": 1,
-							"value": "Nasi goreng"
-						},
-						{
-							"id": 2,
-							"value": "Mie goreng"
-						},
-						{
-							"id": 3,
-							"value": "Ayam penyet"
-						}
-					],
-					"min": 1,
-					"max": 1,
-					"mandatory": true,
-					"multiple": false
-				},
-				{
-					"id": 4,
-					"uuid": "004-004-004-004",
-					"question": "Pilih yang kamu ingin perusahaan berikan (minimal 1, boleh lebih dari 1, maksimal 2)",
-					"type": "dropdown",
-					"options": [
-						{
-							"id": 1,
-							"value": "Slip gaji di print"
-						},
-						{
-							"id": 2,
-							"value": "Naik gaji"
-						},
-						{
-							"id": 3,
-							"value": "Bonus tiap quarter (setahun 4x)"
-						}
-					],
-					"min": 1,
-					"max": 3,
-					"mandatory": true,
-					"multiple": true
-				},
-				{
-					"id": 5,
-					"uuid": "005-005-005-005",
-					"question": "Berikan saran kamu untuk perusahaan",
-					"type": "text",
-					"min": 1,
-					"max": 255,
-					"mandatory": true,
-					"multiple": false
-				}
-			]
-		}
+	"MESSAGE_TYPE": "S",
+	"MESSAGE": "Successfully start survey",
+	"DATA": {
+		"id": 1,
+		"uuid": "001-001-001-001",
+		"title": "Survey Kepuasan Karyawan",
+		"start_date": "2025-12-01",
+		"end_date": "2025-12-05",
+		"description": "Survey ini bertujuan untuk ini itu ini itu dst dst ini bisa panjang sekali",
+		"survey_question": [
+			{
+				"id": 1,
+				"uuid": "001-001-001-001",
+				"question": "Apakah kamu cukup puas dengan perusahaan?",
+				"type": "likert",
+				"min": 1,
+				"max": 6,
+				"min_value": "Sangat tidak puas",
+				"max_value": "Puas sekali",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"id": 2,
+				"uuid": "002-002-002-002",
+				"question": "Apakah kamu cukup puas dengan gaji?",
+				"type": "likert",
+				"min": 1,
+				"max": 6,
+				"min_value": "Sangat tidak puas",
+				"max_value": "Puas sekali",
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"id": 3,
+				"uuid": "003-003-003-003",
+				"question": "Pilih makanan kesukaan kamu (satu saja)",
+				"type": "dropdown",
+				"options": [
+					{
+						"id": 1,
+						"value": "Nasi goreng"
+					},
+					{
+						"id": 2,
+						"value": "Mie goreng"
+					},
+					{
+						"id": 3,
+						"value": "Ayam penyet"
+					}
+				],
+				"min": 1,
+				"max": 1,
+				"mandatory": true,
+				"multiple": false
+			},
+			{
+				"id": 4,
+				"uuid": "004-004-004-004",
+				"question": "Pilih yang kamu ingin perusahaan berikan (minimal 1, boleh lebih dari 1, maksimal 2)",
+				"type": "dropdown",
+				"options": [
+					{
+						"id": 1,
+						"value": "Slip gaji di print"
+					},
+					{
+						"id": 2,
+						"value": "Naik gaji"
+					},
+					{
+						"id": 3,
+						"value": "Bonus tiap quarter (setahun 4x)"
+					}
+				],
+				"min": 1,
+				"max": 2,
+				"mandatory": true,
+				"multiple": true
+			},
+			{
+				"id": 5,
+				"uuid": "005-005-005-005",
+				"question": "Berikan saran kamu untuk perusahaan",
+				"type": "text",
+				"min": 1,
+				"max": 255,
+				"mandatory": true,
+				"multiple": false
+			}
+		]
 	}
+}
