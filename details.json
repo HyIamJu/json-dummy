@@ -1,0 +1,58 @@
+{
+	"MESSAGE_TYPE": "S",
+	"MESSAGE": "Successfully finished survey",
+	"DATA": {
+		"id": 1,
+		"uuid": "001-001-001-001",
+		"title": "Survey Kepuasan Karyawan",
+		"start_date": "2025-12-01",
+		"end_date": "2025-12-05",
+		"description": "Survey ini bertujuan untuk ini itu ini itu dst dst ini bisa panjang sekali",
+		"result": "Good",
+		"survey_question": [
+			{
+				"id": 1,
+				"uuid": "001-001-001-001",
+				"question": "Apakah kamu cukup puas dengan perusahaan?",
+				"type": "likert",
+				"min": 1,
+				"max": 6,
+				"min_value": "Sangat tidak puas",
+				"max_value": "Puas sekali",
+				"answer": "6"
+			},
+			{
+				"id": 2,
+				"uuid": "002-002-002-002",
+				"question": "Apakah kamu cukup puas dengan gaji?",
+				"type": "likert",
+				"min": 1,
+				"max": 6,
+				"min_value": "Sangat tidak puas",
+				"max_value": "Puas sekali",
+				"answer": "5"
+			},
+			{
+				"id": 3,
+				"uuid": "003-003-003-003",
+				"question": "Pilih makanan kesukaan kamu (satu saja)",
+				"type": "dropdown",
+				"answer": "Ayam penyet"
+			},
+			{
+				"id": 4,
+				"uuid": "004-004-004-004",
+				"question": "Pilih yang kamu ingin perusahaan berikan (minimal 1, boleh lebih dari 1, maksimal 2)",
+				"type": "dropdown",
+				"answer": "Naik gaji, Bonus tiap quarter (setahun 4x)"
+			},
+			{
+				"id": 5,
+				"uuid": "005-005-005-005",
+				"question": "Berikan saran kamu untuk perusahaan",
+				"type": "text",
+				"answer": "perusahaan mendukung karyawan dalam meningkatkan skil dan pengetahuan"
+			}
+		]
+	}
+}
